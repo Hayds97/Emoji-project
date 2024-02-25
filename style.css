@@ -21,5 +21,28 @@ body {
     transform: translateX(-50%); 
     top: 20%;
     width: 50px;
-    background-color: bisque;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hotpink;
+    display: flex;
+    overflow: hidden;
+}
+
+.fa-solid {
+    margin: 1px;
+    transform: translateX(0px);
+
+}
+
+.rating-container {
+    position: absolute;
+    width: 300px;
+    left: 65%;
+    transform: translateX(-50%);
+    bottom: 20%;
+   
+}
+
+.fa-star {
+    color: lightgray;
 }
