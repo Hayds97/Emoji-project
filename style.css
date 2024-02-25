@@ -45,4 +45,9 @@ body {
 
 .fa-star {
     color: lightgray;
+    cursor: pointer;
+}
+
+.fa-star.active {
+    color: gold;
 }
